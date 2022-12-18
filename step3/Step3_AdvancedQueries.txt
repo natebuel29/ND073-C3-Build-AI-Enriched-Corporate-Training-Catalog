@@ -1,0 +1,442 @@
+1. Query String: search='Brain Informatics'
+Results:
+{
+  "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 15.970648,
+      "metadata_storage_content_type": "application/pdf",
+      "metadata_storage_size": 1434817,
+      "metadata_storage_last_modified": "2022-12-18T18:53:46Z",
+      "metadata_storage_content_md5": "6U7jZTr6nPlZOU8g/HcTsQ==",
+      "metadata_storage_name": "s40708-020-00109-x.pdf",
+      "metadata_storage_path": "aHR0cHM6Ly9jb3JwdHJhaW5pbmdzdG9yYWdlLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczQwNzA4LTAyMC0wMDEwOS14LnBkZg2",
+      "metadata_storage_file_extension": ".pdf",
+      "metadata_content_type": "application/pdf",
+      "metadata_language": "en",
+      "metadata_author": "Ferdousi Sabera Rawnaque ",
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review",
+      "metadata_creation_date": "2020-09-18T02:02:41Z",
+      "publicationName": "Brain Informatics",
+      "publisher": "Springer",
+      "doi": "10.1186/s40708-020-00109-x",
+      "publicationDate": "2020-09-21"
+    },
+    {
+      "@search.score": 12.256212,
+      "metadata_storage_content_type": "application/pdf",
+      "metadata_storage_size": 456223,
+      "metadata_storage_last_modified": "2022-12-18T18:53:49Z",
+      "metadata_storage_content_md5": "2I1OQIzwe8dijma0b/o+Lg==",
+      "metadata_storage_name": "s40708-015-0017-z.pdf",
+      "metadata_storage_path": "aHR0cHM6Ly9jb3JwdHJhaW5pbmdzdG9yYWdlLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczQwNzA4LTAxNS0wMDE3LXoucGRm0",
+      "metadata_storage_file_extension": ".pdf",
+      "metadata_content_type": "application/pdf",
+      "metadata_language": "en",
+      "metadata_author": "Zengda Guan",
+      "metadata_title": "Local regression transfer learning with applications to users’ psychological characteristics prediction",
+      "metadata_creation_date": "2015-08-12T10:56:23Z",
+      "publicationName": "Brain Informatics",
+      "publisher": "Springer",
+      "doi": "10.1007/s40708-015-0017-z",
+      "publicationDate": "2015-09-01"
+    },
+    {
+      "@search.score": 3.5470662,
+      "metadata_storage_content_type": "application/pdf",
+      "metadata_storage_size": 593265,
+      "metadata_storage_last_modified": "2022-12-18T18:53:32Z",
+      "metadata_storage_content_md5": "uaEkbE16Dgf4FbaxSaZFhA==",
+      "metadata_storage_name": "Köchling-Wehner2020_Article_DiscriminatedByAnAlgorithmASys.pdf",
+      "metadata_storage_path": "aHR0cHM6Ly9jb3JwdHJhaW5pbmdzdG9yYWdlLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvSyVDMyVCNmNobGluZy1XZWhuZXIyMDIwX0FydGljbGVfRGlzY3JpbWluYXRlZEJ5QW5BbGdvcml0aG1BU3lzLnBkZg2",
+      "metadata_storage_file_extension": ".pdf",
+      "metadata_content_type": "application/pdf",
+      "metadata_language": "en",
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "metadata_creation_date": "2020-11-19T15:45:16Z",
+      "publicationName": "Business Research",
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publicationDate": "2020-11-01"
+    }
+  ]
+}
+
+2. Query String: search='Business Research'
+Results:
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.9676888,
+      "content": "",
+      "metadata_storage_path": "aHR0cHM6Ly9sb25ndGgyOHNhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvSyVDMyVCNmNobGluZy1XZWhuZXIyMDIwX0FydGljbGVfRGlzY3JpbWluYXRlZEJ5QW5BbGdvcml0aG1BU3lzLnBkZg2",
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "metadata_creation_date": "2020-11-19T15:45:16Z",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [],
+      "publicationName": "Business Research",
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publicationDate": "2020-11-01"
+    }
+  ]
+}
+
+3. Query String: search=*&$filter=role eq 'architect'
+Results:
+
+{
+  "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "RowKey": "6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6212612Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.621Z",
+      "Key": "company-moodle6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "url": "https://www.example.com/course12",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "RowKey": "9df844fd-eefe-4880-8341-936732174bb5",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6212612Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.621Z",
+      "Key": "company-moodle9df844fd-eefe-4880-8341-936732174bb5",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "NA",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Encryption and security",
+      "url": "https://www.example.com/course14",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    }
+  ]
+}
+
+4. Query String: search='Claudia Blackman'
+Results:
+{
+  "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6202623Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.62Z",
+      "Key": "company-moodle578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "9700e1dc-b293-4306-9e1b-0d345863db54",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6192631Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.619Z",
+      "Key": "company-moodle9700e1dc-b293-4306-9e1b-0d345863db54",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "b51ede14-025f-49ad-9e9e-44ad284eedda",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6202623Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.62Z",
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    }
+  ]
+}
+
+5. Query String: search='Eileen Diaz'&facet=rating_average
+Results:
+{
+  "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "rating_average": [
+      {
+        "count": 2,
+        "value": 4.3
+      },
+      {
+        "count": 1,
+        "value": 4.2
+      },
+      {
+        "count": 1,
+        "value": 4.4
+      },
+      {
+        "count": 1,
+        "value": 4.8
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6202623Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.62Z",
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6212612Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.621Z",
+      "Key": "company-moodle6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "url": "https://www.example.com/course12",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "85ee725b-4ae0-4719-8785-ddf99e19faf1",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6202623Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.62Z",
+      "Key": "company-moodle85ee725b-4ae0-4719-8785-ddf99e19faf1",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.3,
+      "rating_count": 45,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "Security for database admins",
+      "url": "https://www.example.com/course8",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "9df844fd-eefe-4880-8341-936732174bb5",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6212612Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.621Z",
+      "Key": "company-moodle9df844fd-eefe-4880-8341-936732174bb5",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "NA",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Encryption and security",
+      "url": "https://www.example.com/course14",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "d3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6212612Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.621Z",
+      "Key": "company-moodled3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "url": "https://www.example.com/course9",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    }
+  ]
+}
