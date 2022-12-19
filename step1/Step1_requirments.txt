@@ -1,0 +1,8 @@
+System Requirements:
+
+- User should be able to search for courses by all text fields as key words
+- User should be able to filter courses on rating, duration, source, type, level and role
+- User should be able to facet courses on rating, duration, source, type, level and role
+- User should be able to see results about instructors information
+- User should be able to sort courses results on duration, rating average, and rating count
+- User should be able to search Curated Library for papers by authors, journal name, author's institutions, publication name, publisher, and publication date.
