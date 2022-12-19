@@ -1,0 +1,35 @@
+{
+    "@odata.context": "https://corp-training-cog-search.search.windows.net/$metadata#indexers/$entity",
+    "@odata.etag": "\"0x8DAE15312EA0012\"",
+    "name": "azuretable-indexer",
+    "description": "",
+    "dataSourceName": "courses-table-data-set",
+    "skillsetName": "azuretable-skillset",
+    "targetIndexName": "azuretable-index",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+        "batchSize": null,
+        "maxFailedItems": 0,
+        "maxFailedItemsPerBatch": 0,
+        "base64EncodeKeys": false,
+        "configuration": {}
+    },
+    "fieldMappings": [],
+    "outputFieldMappings": [
+        {
+            "sourceFieldName": "/document/PartitionKey/people",
+            "targetFieldName": "people"
+        },
+        {
+            "sourceFieldName": "/document/PartitionKey/organizations",
+            "targetFieldName": "organizations"
+        },
+        {
+            "sourceFieldName": "/document/PartitionKey/keyphrases",
+            "targetFieldName": "keyphrases"
+        }
+    ],
+    "cache": null,
+    "encryptionKey": null
+}

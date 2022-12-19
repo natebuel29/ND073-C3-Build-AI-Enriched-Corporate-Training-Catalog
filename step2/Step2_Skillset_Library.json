@@ -1,0 +1,73 @@
+{
+    "@odata.context": "https://corp-training-cog-search.search.windows.net/$metadata#skillsets/$entity",
+    "@odata.etag": "\"0x8DAE15340A29C6C\"",
+    "name": "azureblob-skillset",
+    "description": "Skillset created from the portal. skillsetName: azureblob-skillset; contentField: content; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+    "skills": [
+        {
+            "@odata.type": "#Microsoft.Skills.Text.V3.EntityRecognitionSkill",
+            "name": "#1",
+            "description": null,
+            "context": "/document/content",
+            "categories": [
+                "Product",
+                "PhoneNumber",
+                "Person",
+                "Quantity",
+                "Organization",
+                "IPAddress",
+                "URL",
+                "Email",
+                "Event",
+                "Skill",
+                "Location",
+                "PersonType",
+                "Address",
+                "DateTime"
+            ],
+            "defaultLanguageCode": "en",
+            "minimumPrecision": null,
+            "modelVersion": null,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/content"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "persons",
+                    "targetName": "people"
+                },
+                {
+                    "name": "organizations",
+                    "targetName": "organizations"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+            "name": "#2",
+            "description": null,
+            "context": "/document/content",
+            "defaultLanguageCode": "en",
+            "maxKeyPhraseCount": null,
+            "modelVersion": null,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/content"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "keyPhrases",
+                    "targetName": "keyphrases"
+                }
+            ]
+        }
+    ],
+    "cognitiveServices": null,
+    "knowledgeStore": null,
+    "encryptionKey": null
+}

@@ -1,0 +1,77 @@
+{
+    "@odata.context": "https://corp-training-cog-search.search.windows.net/$metadata#skillsets/$entity",
+    "@odata.etag": "\"0x8DAE152EB159F30\"",
+    "name": "azuretable-skillset",
+    "description": "Skillset created from the portal. skillsetName: azuretable-skillset; contentField: PartitionKey; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+    "skills": [
+        {
+            "@odata.type": "#Microsoft.Skills.Text.V3.EntityRecognitionSkill",
+            "name": "#1",
+            "description": null,
+            "context": "/document/PartitionKey",
+            "categories": [
+                "Product",
+                "PhoneNumber",
+                "Person",
+                "Quantity",
+                "Organization",
+                "IPAddress",
+                "URL",
+                "Email",
+                "Event",
+                "Skill",
+                "Location",
+                "PersonType",
+                "Address",
+                "DateTime"
+            ],
+            "defaultLanguageCode": "en",
+            "minimumPrecision": null,
+            "modelVersion": null,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/PartitionKey"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "persons",
+                    "targetName": "people"
+                },
+                {
+                    "name": "organizations",
+                    "targetName": "organizations"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+            "name": "#2",
+            "description": null,
+            "context": "/document/PartitionKey",
+            "defaultLanguageCode": "en",
+            "maxKeyPhraseCount": null,
+            "modelVersion": null,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/PartitionKey"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "keyPhrases",
+                    "targetName": "keyphrases"
+                }
+            ]
+        }
+    ],
+    "cognitiveServices": {
+        "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+        "description": "/subscriptions/21c3b110-f64e-4fec-88bc-5570cc5b6835/resourceGroups/aind-219162/providers/Microsoft.CognitiveServices/accounts/corp-training-cognitive-services-3",
+        "key": "f5513ee85fc3401a8946b5250380e8ce"
+    },
+    "knowledgeStore": null,
+    "encryptionKey": null
+}

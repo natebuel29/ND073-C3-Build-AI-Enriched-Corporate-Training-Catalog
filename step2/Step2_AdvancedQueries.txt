@@ -1,0 +1,1368 @@
+1. Query String: search=*&$filter=rating_count gt 10000
+Results:
+{
+  "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "0479d887-32ce-477b-b184-9230e096562a",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.086Z",
+      "Key": "ms-learn0479d887-32ce-477b-b184-9230e096562a",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "25b613a7-0afa-46dc-be9a-3b34c30a1d40",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.087Z",
+      "Key": "ms-learn25b613a7-0afa-46dc-be9a-3b34c30a1d40",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "3e93d44c-8438-46e8-a157-15a2dfa6c6ca",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.087Z",
+      "Key": "ms-learn3e93d44c-8438-46e8-a157-15a2dfa6c6ca",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "64fe0253-71fd-4c27-b288-6e8cf819d02c",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.087Z",
+      "Key": "ms-learn64fe0253-71fd-4c27-b288-6e8cf819d02c",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "7a84294d-d64c-4fa9-afb8-6f99822c848e",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.087Z",
+      "Key": "ms-learn7a84294d-d64c-4fa9-afb8-6f99822c848e",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "7be24452-07d1-4acc-99b3-89b901049505",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.086Z",
+      "Key": "ms-learn7be24452-07d1-4acc-99b3-89b901049505",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "843d6d18-cb80-417e-932e-206e15c80b57",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.087Z",
+      "Key": "ms-learn843d6d18-cb80-417e-932e-206e15c80b57",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "88c9641b-7fc9-4791-9798-fc047ba013a5",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.087Z",
+      "Key": "ms-learn88c9641b-7fc9-4791-9798-fc047ba013a5",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "bdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.086Z",
+      "Key": "ms-learnbdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "cb1e0a98-cce5-45a9-810e-c6e147a777f2",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.086Z",
+      "Key": "ms-learncb1e0a98-cce5-45a9-810e-c6e147a777f2",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "cf9fbb13-4097-4c66-9cc9-582abfcc7298",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.086Z",
+      "Key": "ms-learncf9fbb13-4097-4c66-9cc9-582abfcc7298",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "efcdc4e3-d588-4b25-b109-65b7c593572b",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+      "Timestamp": "2022-12-18T18:53:05.086Z",
+      "Key": "ms-learnefcdc4e3-d588-4b25-b109-65b7c593572b",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    }
+  ]
+}
+
+2. Query String: search=*&$filter=product eq 'azure-bot-service'
+Results:
+
+{
+    "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+    "value": [
+      {
+        "@search.score": 1,
+        "PartitionKey": "ms-learn",
+        "RowKey": "01b1e42d-8025-4865-8488-06e946fd5bf3",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8327036Z'\"",
+        "Timestamp": "2022-12-18T18:53:07.832Z",
+        "Key": "ms-learn01b1e42d-8025-4865-8488-06e946fd5bf3",
+        "description": "In this module, we'll introduce you to Language Understanding Intelligent Service (LUIS) and show how to build and publish a LUIS model",
+        "duration": 54,
+        "instructor": "",
+        "level": "intermediate",
+        "product": "azure-bot-service",
+        "rating_average": 4.67,
+        "rating_count": 1855,
+        "role": "ai-engineer",
+        "source": "MS Learn",
+        "title": "Add conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/create-and-publish-a-luis-model/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 1,
+        "PartitionKey": "ms-learn",
+        "RowKey": "25b613a7-0afa-46dc-be9a-3b34c30a1d40",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+        "Timestamp": "2022-12-18T18:53:05.087Z",
+        "Key": "ms-learn25b613a7-0afa-46dc-be9a-3b34c30a1d40",
+        "description": "Get started with AI on Azure",
+        "duration": 34,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-bot-service",
+        "rating_average": 4.78,
+        "rating_count": 10997,
+        "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "2c8c0651-b37a-4491-914e-770fe7764a32",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8257076Z'\"",
+      "Timestamp": "2022-12-18T18:53:07.825Z",
+      "Key": "ms-learn2c8c0651-b37a-4491-914e-770fe7764a32",
+      "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+      "duration": 23,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 7268,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Choose the best AI service for your needs",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "RowKey": "3027c607-3074-4a8d-ac3b-226e654b1b39",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8247085Z'\"",
+      "Timestamp": "2022-12-18T18:53:07.824Z",
+      "Key": "ms-learn3027c607-3074-4a8d-ac3b-226e654b1b39",
+      "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+      "duration": 23,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 7268,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Choose the best AI service for your needs",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "learn"
+    ]
+},
+{
+  "@search.score": 1,
+  "PartitionKey": "ms-learn",
+  "RowKey": "4f2258ed-bb51-4d70-97a1-0d3c63f783a4",
+  "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8257076Z'\"",
+  "Timestamp": "2022-12-18T18:53:07.825Z",
+  "Key": "ms-learn4f2258ed-bb51-4d70-97a1-0d3c63f783a4",
+  "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+  "duration": 23,
+  "instructor": "",
+  "level": "beginner",
+  "product": "azure-bot-service",
+  "rating_average": 4.78,
+  "rating_count": 7268,
+  "role": "business-owner",
+  "source": "MS Learn",
+  "title": "Choose the best AI service for your needs",
+  "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+  "people": [],
+  "organizations": [],
+  "keyphrases": [
+    "learn"
+  ]
+},
+{
+  "@search.score": 1,
+  "PartitionKey": "ms-learn",
+  "RowKey": "5863dd35-9e6a-4c78-b1ca-55b7558df3c1",
+  "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8267073Z'\"",
+  "Timestamp": "2022-12-18T18:53:07.826Z",
+  "Key": "ms-learn5863dd35-9e6a-4c78-b1ca-55b7558df3c1",
+  "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+  "duration": 23,
+  "instructor": "",
+  "level": "beginner",
+  "product": "azure-bot-service",
+  "rating_average": 4.78,
+  "rating_count": 7268,
+  "role": "student",
+  "source": "MS Learn",
+  "title": "Choose the best AI service for your needs",
+  "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+  "people": [],
+  "organizations": [],
+  "keyphrases": [
+    "learn"
+  ]
+},
+{
+  "@search.score": 1,
+  "PartitionKey": "ms-learn",
+  "RowKey": "8219ea50-401f-4029-8367-0b95bd639174",
+  "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.831704Z'\"",
+  "Timestamp": "2022-12-18T18:53:07.831Z",
+  "Key": "ms-learn8219ea50-401f-4029-8367-0b95bd639174",
+  "description": "In this module, we'll introduce you to Language Understanding Intelligent Service (LUIS) and show how to build and publish a LUIS model",
+  "duration": 54,
+  "instructor": "",
+  "level": "intermediate",
+  "product": "azure-bot-service",
+  "rating_average": 4.67,
+  "rating_count": 1855,
+  "role": "solution-architect",
+  "source": "MS Learn",
+  "title": "Add conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+  "url": "https://docs.microsoft.com/en-us/learn/modules/create-and-publish-a-luis-model/?WT.mc_id=api_CatalogApi",
+  "people": [],
+  "organizations": [],
+  "keyphrases": [
+    "learn"
+  ]
+},
+{
+  "@search.score": 1,
+  "PartitionKey": "ms-learn",
+  "RowKey": "88c9641b-7fc9-4791-9798-fc047ba013a5",
+  "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.087245Z'\"",
+  "Timestamp": "2022-12-18T18:53:05.087Z",
+  "Key": "ms-learn88c9641b-7fc9-4791-9798-fc047ba013a5",
+  "description": "Get started with AI on Azure",
+  "duration": 34,
+  "instructor": "",
+  "level": "beginner",
+  "product": "azure-bot-service",
+  "rating_average": 4.78,
+  "rating_count": 10997,
+  "role": "student",
+  "source": "MS Learn",
+  "title": "Get started with AI on Azure",
+  "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+  "people": [],
+  "organizations": [],
+  "keyphrases": [
+    "learn"
+  ]
+},
+{
+  "@search.score": 1,
+  "PartitionKey": "ms-learn",
+  "RowKey": "af519d31-e5d1-4164-a947-538b87785cfc",
+  "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8327036Z'\"",
+  "Timestamp": "2022-12-18T18:53:07.832Z",
+  "Key": "ms-learnaf519d31-e5d1-4164-a947-538b87785cfc",
+  "description": "In this module, we'll introduce you to Language Understanding Intelligent Service (LUIS) and show how to build and publish a LUIS model",
+  "duration": 54,
+  "instructor": "",
+  "level": "intermediate",
+  "product": "azure-bot-service",
+  "rating_average": 4.67,
+  "rating_count": 1855,
+  "role": "student",
+  "source": "MS Learn",
+  "title": "Add conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+  "url": "https://docs.microsoft.com/en-us/learn/modules/create-and-publish-a-luis-model/?WT.mc_id=api_CatalogApi",
+  "people": [],
+  "organizations": [],
+  "keyphrases": [
+    "learn"
+  ]
+},
+{
+  "@search.score": 1,
+  "PartitionKey": "ms-learn",
+  "RowKey": "bdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+  "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+  "Timestamp": "2022-12-18T18:53:05.086Z",
+  "Key": "ms-learnbdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+  "description": "Get started with AI on Azure",
+  "duration": 34,
+  "instructor": "",
+  "level": "beginner",
+  "product": "azure-bot-service",
+  "rating_average": 4.78,
+  "rating_count": 10997,
+  "role": "ai-engineer",
+  "source": "MS Learn",
+  "title": "Get started with AI on Azure",
+  "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+  "people": [],
+  "organizations": [],
+  "keyphrases": [
+    "learn"
+  ]
+},
+{
+    "@search.score": 1,
+    "PartitionKey": "ms-learn",
+    "RowKey": "c8d0d6e2-968d-4f05-9f56-15293ea4a187",
+    "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8277069Z'\"",
+    "Timestamp": "2022-12-18T18:53:07.827Z",
+    "Key": "ms-learnc8d0d6e2-968d-4f05-9f56-15293ea4a187",
+    "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+    "duration": 23,
+    "instructor": "",
+    "level": "beginner",
+    "product": "azure-bot-service",
+    "rating_average": 4.78,
+    "rating_count": 7268,
+    "role": "technology-manager",
+    "source": "MS Learn",
+    "title": "Choose the best AI service for your needs",
+    "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+    "people": [],
+    "organizations": [],
+    "keyphrases": [
+      "learn"
+    ]
+  },
+  {
+    "@search.score": 1,
+    "PartitionKey": "ms-learn",
+    "RowKey": "ca5f11eb-dc66-4e48-8a4d-0a9a6aee1a72",
+    "ETag": "W/\"datetime'2022-12-18T18%3A53%3A07.8307049Z'\"",
+    "Timestamp": "2022-12-18T18:53:07.83Z",
+    "Key": "ms-learnca5f11eb-dc66-4e48-8a4d-0a9a6aee1a72",
+    "description": "In this module, we'll introduce you to Language Understanding Intelligent Service (LUIS) and show how to build and publish a LUIS model",
+    "duration": 54,
+    "instructor": "",
+    "level": "intermediate",
+    "product": "azure-bot-service",
+    "rating_average": 4.67,
+    "rating_count": 1855,
+    "role": "developer",
+    "source": "MS Learn",
+    "title": "Add conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+    "url": "https://docs.microsoft.com/en-us/learn/modules/create-and-publish-a-luis-model/?WT.mc_id=api_CatalogApi",
+    "people": [],
+    "organizations": [],
+    "keyphrases": [
+      "learn"
+    ]
+  },
+  {
+    "@search.score": 1,
+    "PartitionKey": "ms-learn",
+    "RowKey": "cf9fbb13-4097-4c66-9cc9-582abfcc7298",
+    "ETag": "W/\"datetime'2022-12-18T18%3A53%3A05.0862449Z'\"",
+    "Timestamp": "2022-12-18T18:53:05.086Z",
+    "Key": "ms-learncf9fbb13-4097-4c66-9cc9-582abfcc7298",
+    "description": "Get started with AI on Azure",
+    "duration": 34,
+    "instructor": "",
+    "level": "beginner",
+    "product": "azure-bot-service",
+    "rating_average": 4.78,
+    "rating_count": 10997,
+    "role": "data-scientist",
+    "source": "MS Learn",
+    "title": "Get started with AI on Azure",
+    "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+    "people": [],
+    "organizations": [],
+    "keyphrases": [
+      "learn"
+    ]
+  }
+]
+}
+
+3. Query String: search=beginner&$filter=rating_count gt 500&$orderby=rating_average asc
+Results:
+
+{
+    "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+    "value": [
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "company-moodle",
+        "RowKey": "17b1eedc-0e96-4e5b-8199-83a484388efe",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6212612Z'\"",
+        "Timestamp": "2022-12-18T18:53:08.621Z",
+        "Key": "company-moodle17b1eedc-0e96-4e5b-8199-83a484388efe",
+        "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+        "duration": 2,
+        "instructor": "Gerald Dominguez",
+        "level": "beginner",
+        "product": "O365",
+        "rating_average": 4.6,
+        "rating_count": 510,
+        "role": "all",
+        "source": "Company Moodle",
+        "title": "O365",
+        "url": "https://www.example.com/course10",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "company",
+          "moodle"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "company-moodle",
+        "RowKey": "c6b7fbd0-7390-4370-ab77-45027596b520",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6212612Z'\"",
+        "Timestamp": "2022-12-18T18:53:08.621Z",
+        "Key": "company-moodlec6b7fbd0-7390-4370-ab77-45027596b520",
+        "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+        "duration": 1,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "NA",
+        "rating_average": 4.6,
+        "rating_count": 525,
+        "role": "all",
+        "source": "Company Moodle",
+        "title": "Workplace Health",
+        "url": "https://www.example.com/course13",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "company",
+          "moodle"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "15f02c60-301b-4418-9368-044c0bbcd36f",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1213477Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.121Z",
+        "Key": "ms-learn15f02c60-301b-4418-9368-044c0bbcd36f",
+        "description": "Train a machine learning model with Azure Machine Learning",
+        "duration": 40,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.63,
+        "rating_count": 1998,
+        "role": "data-scientist",
+        "source": "MS Learn",
+        "title": "Train a machine learning model with Azure Machine Learning",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/train-local-model-with-azure-mls/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "afe14147-e05a-4cfe-b086-93b4843fe5f0",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1223471Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.122Z",
+        "Key": "ms-learnafe14147-e05a-4cfe-b086-93b4843fe5f0",
+        "description": "Train a machine learning model with Azure Machine Learning",
+        "duration": 40,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-machine-learning",
+        "rating_average": 4.63,
+        "rating_count": 1998,
+        "role": "data-scientist",
+        "source": "MS Learn",
+        "title": "Train a machine learning model with Azure Machine Learning",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/train-local-model-with-azure-mls/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "c1f7d0eb-8786-4f99-8eb9-db55ef8f789b",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1223471Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.122Z",
+        "Key": "ms-learnc1f7d0eb-8786-4f99-8eb9-db55ef8f789b",
+        "description": "Train a machine learning model with Azure Machine Learning",
+        "duration": 40,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.63,
+        "rating_count": 1998,
+        "role": "student",
+        "source": "MS Learn",
+        "title": "Train a machine learning model with Azure Machine Learning",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/train-local-model-with-azure-mls/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "f5492a10-074e-4436-bdee-971c285e5811",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1223471Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.122Z",
+        "Key": "ms-learnf5492a10-074e-4436-bdee-971c285e5811",
+        "description": "Train a machine learning model with Azure Machine Learning",
+        "duration": 40,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-machine-learning",
+        "rating_average": 4.63,
+        "rating_count": 1998,
+        "role": "student",
+        "source": "MS Learn",
+        "title": "Train a machine learning model with Azure Machine Learning",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/train-local-model-with-azure-mls/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "bf5e5439-57bd-4267-ba87-ad26550c60ee",
+        "ETag": "W/\"datetime'2022-12-18T18%3A52%3A59.8921594Z'\"",
+        "Timestamp": "2022-12-18T18:52:59.892Z",
+        "Key": "ms-learnbf5e5439-57bd-4267-ba87-ad26550c60ee",
+        "description": "Discover the benefits of webhooks when you trigger an Azure function with a GitHub webhook and parse the payload for insights.",
+        "duration": 53,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-functions",
+        "rating_average": 4.64,
+        "rating_count": 2179,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Monitor GitHub events by using a webhook with Azure Functions",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/monitor-github-events-with-a-function-triggered-by-a-webhook/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "c365d5c1-7c56-4094-b5e5-229131bcd4d5",
+        "ETag": "W/\"datetime'2022-12-18T18%3A52%3A59.8921594Z'\"",
+        "Timestamp": "2022-12-18T18:52:59.892Z",
+        "Key": "ms-learnc365d5c1-7c56-4094-b5e5-229131bcd4d5",
+        "description": "Discover the benefits of webhooks when you trigger an Azure function with a GitHub webhook and parse the payload for insights.",
+        "duration": 53,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.64,
+        "rating_count": 2179,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Monitor GitHub events by using a webhook with Azure Functions",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/monitor-github-events-with-a-function-triggered-by-a-webhook/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "2d01d165-c5a6-42b7-8a52-b89f9282d227",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A00.4258593Z'\"",
+        "Timestamp": "2022-12-18T18:53:00.425Z",
+        "Key": "ms-learn2d01d165-c5a6-42b7-8a52-b89f9282d227",
+        "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+        "duration": 32,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-cognitive-services",
+        "rating_average": 4.65,
+        "rating_count": 1457,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Process images with the Computer Vision service",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "2eb64953-5f7a-4985-8632-314014c8a8c2",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1223471Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.122Z",
+        "Key": "ms-learn2eb64953-5f7a-4985-8632-314014c8a8c2",
+        "description": "Introduction to the Azure Machine Learning SDK",
+        "duration": 60,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-machine-learning",
+        "rating_average": 4.65,
+        "rating_count": 2869,
+        "role": "data-scientist",
+        "source": "MS Learn",
+        "title": "Introduction to the Azure Machine Learning SDK",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-machine-learning-service/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "3cfba9b7-c611-4019-848d-985e5bc2fd19",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A00.4258593Z'\"",
+        "Timestamp": "2022-12-18T18:53:00.425Z",
+        "Key": "ms-learn3cfba9b7-c611-4019-848d-985e5bc2fd19",
+        "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+        "duration": 32,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-clis",
+        "rating_average": 4.65,
+        "rating_count": 1457,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Process images with the Computer Vision service",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "5491227a-c064-4c31-8b28-8e22ba483892",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A00.4268599Z'\"",
+        "Timestamp": "2022-12-18T18:53:00.426Z",
+        "Key": "ms-learn5491227a-c064-4c31-8b28-8e22ba483892",
+        "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+        "duration": 32,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-cognitive-services",
+        "rating_average": 4.65,
+        "rating_count": 1457,
+        "role": "ai-engineer",
+        "source": "MS Learn",
+        "title": "Process images with the Computer Vision service",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "59c58efa-d830-4c65-8ac4-5432bb0ec73e",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1233464Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.123Z",
+        "Key": "ms-learn59c58efa-d830-4c65-8ac4-5432bb0ec73e",
+        "description": "Introduction to the Azure Machine Learning SDK",
+        "duration": 60,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.65,
+        "rating_count": 2869,
+        "role": "student",
+        "source": "MS Learn",
+        "title": "Introduction to the Azure Machine Learning SDK",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-machine-learning-service/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "6456b6d8-0af1-4dfd-b895-37ecfb3df42b",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1223471Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.122Z",
+        "Key": "ms-learn6456b6d8-0af1-4dfd-b895-37ecfb3df42b",
+        "description": "Introduction to the Azure Machine Learning SDK",
+        "duration": 60,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.65,
+        "rating_count": 2869,
+        "role": "data-scientist",
+        "source": "MS Learn",
+        "title": "Introduction to the Azure Machine Learning SDK",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-machine-learning-service/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "819a7968-cf02-4900-928a-4a45adb4db24",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A00.4268599Z'\"",
+        "Timestamp": "2022-12-18T18:53:00.426Z",
+        "Key": "ms-learn819a7968-cf02-4900-928a-4a45adb4db24",
+        "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+        "duration": 32,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-cognitive-services",
+        "rating_average": 4.65,
+        "rating_count": 1457,
+        "role": "student",
+        "source": "MS Learn",
+        "title": "Process images with the Computer Vision service",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "a7182168-4625-4f3f-8348-bd0ddc542f63",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A03.1233464Z'\"",
+        "Timestamp": "2022-12-18T18:53:03.123Z",
+        "Key": "ms-learna7182168-4625-4f3f-8348-bd0ddc542f63",
+        "description": "Introduction to the Azure Machine Learning SDK",
+        "duration": 60,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-machine-learning",
+        "rating_average": 4.65,
+        "rating_count": 2869,
+        "role": "student",
+        "source": "MS Learn",
+        "title": "Introduction to the Azure Machine Learning SDK",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-machine-learning-service/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "abe85dbd-0dc9-41fa-86e4-445ac496f53e",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A00.4258593Z'\"",
+        "Timestamp": "2022-12-18T18:53:00.425Z",
+        "Key": "ms-learnabe85dbd-0dc9-41fa-86e4-445ac496f53e",
+        "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+        "duration": 32,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-clis",
+        "rating_average": 4.65,
+        "rating_count": 1457,
+        "role": "ai-engineer",
+        "source": "MS Learn",
+        "title": "Process images with the Computer Vision service",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      {
+        "@search.score": 0.4410394,
+        "PartitionKey": "ms-learn",
+        "RowKey": "ad2eb09d-22d2-40e6-8223-7ed0c179544f",
+        "ETag": "W/\"datetime'2022-12-18T18%3A53%3A00.4268599Z'\"",
+        "Timestamp": "2022-12-18T18:53:00.426Z",
+        "Key": "ms-learnad2eb09d-22d2-40e6-8223-7ed0c179544f",
+        "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+        "duration": 32,
+        "instructor": "",
+        "level": "beginner",
+        "product": "azure-clis",
+        "rating_average": 4.65,
+        "rating_count": 1457,
+        "role": "student",
+        "source": "MS Learn",
+        "title": "Process images with the Computer Vision service",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+        "people": [],
+        "organizations": [],
+        "keyphrases": [
+          "learn"
+        ]
+      },
+      .... (a lot of results)
+
+
+4. Query: search=intermediate&$filter=duration gt 20&$orderby=rating_average asc&facet=rating_count,interval:50
+Results:
+
+{
+    "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+    "@search.facets": {
+      "rating_count": [
+        {
+          "count": 82,
+          "value": 0
+        },
+        {
+          "count": 11,
+          "value": 50
+        },
+        {
+          "count": 24,
+          "value": 100
+        },
+        {
+          "count": 10,
+          "value": 200
+        },
+        {
+          "count": 6,
+          "value": 250
+        },
+        {
+          "count": 13,
+          "value": 400
+        },
+        {
+          "count": 8,
+          "value": 450
+        },
+        {
+          "count": 9,
+          "value": 500
+        },
+        {
+          "count": 15,
+          "value": 550
+        },
+        {
+          "count": 20,
+          "value": 600
+        },
+        {
+          "count": 37,
+          "value": 700
+        },
+        {
+          "count": 12,
+          "value": 750
+        },
+        {
+          "count": 3,
+          "value": 800
+        },
+        {
+          "count": 6,
+          "value": 900
+        },
+        {
+          "count": 6,
+          "value": 950
+        },
+        {
+          "count": 6,
+          "value": 1100
+        },
+        {
+            "count": 6,
+            "value": 1500
+          },
+          {
+            "count": 20,
+            "value": 1850
+          },
+          {
+            "count": 8,
+            "value": 1900
+          },
+          {
+            "count": 4,
+            "value": 1950
+          },
+          {
+            "count": 2,
+            "value": 2100
+          },
+          {
+            "count": 6,
+            "value": 2750
+          }
+        ]
+      },
+      "value": [
+        {
+          "@search.score": 1.1114495,
+          "PartitionKey": "ms-learn",
+          "RowKey": "21933bf9-68d3-4649-b58a-79fbb476be02",
+          "ETag": "W/\"datetime'2022-12-18T18%3A52%3A57.2446441Z'\"",
+          "Timestamp": "2022-12-18T18:52:57.244Z",
+          "Key": "ms-learn21933bf9-68d3-4649-b58a-79fbb476be02",
+          "description": "Provision databases in Azure Pipelines",
+          "duration": 62,
+          "instructor": "",
+          "level": "intermediate",
+          "product": "azure",
+          "rating_average": 0,
+          "rating_count": 0,
+          "role": "developer",
+          "source": "MS Learn",
+          "title": "Provision databases in Azure Pipelines",
+          "url": "https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/?WT.mc_id=api_CatalogApi",
+          "people": [],
+          "organizations": [],
+          "keyphrases": [
+            "learn"
+          ]
+        },
+        {
+          "@search.score": 1.1114495,
+          "PartitionKey": "ms-learn",
+          "RowKey": "360412d8-4f79-4219-acc3-6d5e2134d880",
+          "ETag": "W/\"datetime'2022-12-18T18%3A52%3A57.2446441Z'\"",
+          "Timestamp": "2022-12-18T18:52:57.244Z",
+          "Key": "ms-learn360412d8-4f79-4219-acc3-6d5e2134d880",
+          "description": "Provision databases in Azure Pipelines",
+          "duration": 62,
+          "instructor": "",
+          "level": "intermediate",
+          "product": "azure",
+          "rating_average": 0,
+          "rating_count": 0,
+          "role": "devops-engineer",
+          "source": "MS Learn",
+          "title": "Provision databases in Azure Pipelines",
+          "url": "https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/?WT.mc_id=api_CatalogApi",
+          "people": [],
+          "organizations": [],
+          "keyphrases": [
+            "learn"
+          ]
+        },
+        {
+          "@search.score": 1.1114495,
+          "PartitionKey": "ms-learn",
+          "RowKey": "48efecbf-9b8c-47a5-aa46-deea3294ab25",
+          "ETag": "W/\"datetime'2022-12-18T18%3A52%3A57.2446441Z'\"",
+          "Timestamp": "2022-12-18T18:52:57.244Z",
+          "Key": "ms-learn48efecbf-9b8c-47a5-aa46-deea3294ab25",
+          "description": "Provision databases in Azure Pipelines",
+          "duration": 62,
+          "instructor": "",
+          "level": "intermediate",
+          "product": "azure-devops",
+          "rating_average": 0,
+          "rating_count": 0,
+          "role": "administrator",
+          "source": "MS Learn",
+          "title": "Provision databases in Azure Pipelines",
+          "url": "https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/?WT.mc_id=api_CatalogApi",
+          "people": [],
+          "organizations": [],
+          "keyphrases": [
+            "learn"
+          ]
+        },
+        {
+          "@search.score": 1.1114495,
+          "PartitionKey": "ms-learn",
+          "RowKey": "4c970879-187f-473c-83d5-986109db3183",
+          "ETag": "W/\"datetime'2022-12-18T18%3A52%3A57.2446441Z'\"",
+          "Timestamp": "2022-12-18T18:52:57.244Z",
+          "Key": "ms-learn4c970879-187f-473c-83d5-986109db3183",
+          "description": "Provision databases in Azure Pipelines",
+          "duration": 62,
+          "instructor": "",
+          "level": "intermediate",
+          "product": "azure",
+          "rating_average": 0,
+          "rating_count": 0,
+          "role": "administrator",
+          "source": "MS Learn",
+          "title": "Provision databases in Azure Pipelines",
+          "url": "https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/?WT.mc_id=api_CatalogApi",
+          "people": [],
+          "organizations": [],
+          "keyphrases": [
+            "learn"
+          ]
+        },
+        {
+          "@search.score": 1.1114495,
+          "PartitionKey": "ms-learn",
+          "RowKey": "c9f624d0-f2ec-49c8-bcb2-c89b79b051d2",
+          "ETag": "W/\"datetime'2022-12-18T18%3A52%3A57.245644Z'\"",
+          "Timestamp": "2022-12-18T18:52:57.245Z",
+          "Key": "ms-learnc9f624d0-f2ec-49c8-bcb2-c89b79b051d2",
+          "description": "Provision databases in Azure Pipelines",
+          "duration": 62,
+          "instructor": "",
+          "level": "intermediate",
+          "product": "azure",
+          "rating_average": 0,
+          "rating_count": 0,
+          "role": "solution-architect",
+          "source": "MS Learn",
+          "title": "Provision databases in Azure Pipelines",
+          "url": "https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/?WT.mc_id=api_CatalogApi",
+          "people": [],
+          "organizations": [],
+          "keyphrases": [
+            "learn"
+          ]
+        }, . . . 
+
+
+5. Query String: search=*&$select=metadata_author&$filter=metadata_author ne 'Taiwo Kolajo'
+Results:
+
+{
+    "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+    "value": [
+      {
+        "@search.score": 1,
+        "metadata_author": "Alina Köchling "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Administrator"
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": null
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Boping Zhang"
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Haoliang Cui"
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Tuba Parlar "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Chunyong Yin "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Rik Das"
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Muhammad Taimoor Khan"
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": null
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": null
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Partheeban Chandrasekaran"
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "P. Ram Mohan Rao "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Tu Nguyen Thi Ngoc "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Taiwo Kolajo "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Iqbal H. Sarker "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Sandhya Narayanan "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Zengda Guan"
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": "Ferdousi Sabera Rawnaque "
+      },
+      {
+        "@search.score": 1,
+        "metadata_author": " Shun Kodate "
+      }
+    ]
+  }

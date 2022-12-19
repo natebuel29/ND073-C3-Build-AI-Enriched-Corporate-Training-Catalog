@@ -1,0 +1,55 @@
+Query String: search=Taiwo Kolajo
+Results:
+{
+  "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 24.427925,
+      "metadata_storage_content_type": "application/pdf",
+      "metadata_storage_size": 1344318,
+      "metadata_storage_last_modified": "2022-12-18T18:54:06Z",
+      "metadata_storage_content_md5": "DecMA2kPYX0/u29qxMWHQw==",
+      "metadata_storage_name": "s40537-019-0210-7.pdf",
+      "metadata_storage_path": "aHR0cHM6Ly9jb3JwdHJhaW5pbmdzdG9yYWdlLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczQwNTM3LTAxOS0wMjEwLTcucGRm0",
+      "metadata_storage_file_extension": ".pdf",
+      "metadata_content_type": "application/pdf",
+      "metadata_language": "en",
+      "metadata_author": "Taiwo Kolajo ",
+      "metadata_title": "Big data stream analysis: a systematic literature review",
+      "metadata_creation_date": "2019-06-04T14:40:29Z"
+    }
+  ]
+}
+
+Query String: search=Robert
+Results:
+{
+  "@odata.context": "https://corp-training-cog-search.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.0659409,
+      "PartitionKey": "company-moodle",
+      "RowKey": "3cbb3800-2554-4121-bb3a-f365deb0c3b6",
+      "ETag": "W/\"datetime'2022-12-18T18%3A53%3A08.6202623Z'\"",
+      "Timestamp": "2022-12-18T18:53:08.62Z",
+      "Key": "company-moodle3cbb3800-2554-4121-bb3a-f365deb0c3b6",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
